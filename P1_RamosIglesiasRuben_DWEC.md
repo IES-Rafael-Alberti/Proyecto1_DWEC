@@ -32,5 +32,19 @@ Funcionalidades Backend:
 - *Gestionar la comunicación con visitantes y clientes.* Una de las claves del éxito de una tienda online es ofrecer un buen servicio al cliente. La relación entre la tienda y el visitante comienza desde el instante en el que entra por lo que se debe de proporcionar un mecanismo de comunicación, como por ejemplo un chat en el que puede realizar preguntas sobre la tienda o los productos de la misma, así como resolver problemas que surjan con las compras. Es esencial mantener el contacto con el cliente incluso después de haber realizado la compra, enviádole información sobre nuevos productos y promociones y así evitar cerrar la relación con él.
 - *Generar informes.* Se debe de saber el rendimiento de la página, por lo que sería necesario tener los datos de cuántos visitantes tiene, el número de compras, cuáles son los productos que mas se venden, etc... Ésta información es imprescindible para tomar decisiones que afecten al negocio o al diseño de la página y en base a esto, poner medidas para corregir o potenciar.
 
-Referencia del Frontend y Backend: https://www.esi.uclm.es/www/jjcastro/coe/funcionalidades.html  
-Referencia de Cross-selling y Up-selling: https://blog.hubspot.es/service/cross-selling-upselling#que-es-cross
+Referencia investigación del Frontend y Backend de la tienda: https://www.esi.uclm.es/www/jjcastro/coe/funcionalidades.html  
+Referencia de definición Cross-selling y Up-selling: https://blog.hubspot.es/service/cross-selling-upselling#que-es-cross
+
+# Modelos de Ejecución
+*Modelo Cliente-Servidor:* es una de las arquitecturas más populares para la construcción de aplicaciones en la actualidad y se llama así a todo modelo que en la que participan dos componentes en el que uno sea el cliente, que solicita los servicios y el otro el servidor, el que ofrece esos servicios. Todas las aplicaciones web son modelo Cliente-Servidor, el cliente es el navegador, y el servidor es la máquina en la que están instaladas las aplicaciones, las bases de datos y otros recursos.
+
+*Tipos modelo Cliente-Servidor:* principalmente existen dos tipos, arquitectura de dos niveles y de tres niveles.
+
+- *Arquitectura de dos niveles:* es el modelo más habitual, en el que los clientes realizan solicitudes directas sobre el servidor sin la intervención de intermediarios.
+- *Arquitectura de tres niveles: * se añade un intermediario entre el cliente y el servidor que normalmente se encarga de aplicar una capa de lógica de negocio. Aporta una separación mayor de la responsabilidad del software, por lo que da mayor mantenibilidad y escalabilidad a cambio de mayor complejidad.
+- *Variantes: * aparte de modelos 2-Tier o 3-Tier, es decir, de dos o tres niveles, existen modelos n-Tier en el que se añaden capas adicionales para separar aún más la responsabilidad del software, como por ejemplo, aislar una capa de datos.
+- *Alternativa: * la alternativa más frecuente al modelo Cliente-Servidor es lo que se llama software standalone. En este tipo de aplicaciones, se encarga de toda la operativa de la aplicación un único sistema. Éste modelo era el más popular hace unos años. Un ejemplo de standalone sería la antigua aplicación de Word, el cual se ejecutaba en el ordenador sin tener que estar conectado a internet ni tener que depender de un servidor externo. A nivel de red también existen alternativas a Cliente-Servidor como el Peer-to-Peer(P2P), en el que cada nodo u ordenador realiza las tareas de servidor y cliente simultáneamente.Uno de los ejemplos más famosos de un modelo P2P es Amazon, en el que no sólo ésta ofrece sus servicios, también otras empresas la usan para ofrecer los suyos a través de esta plataforma.
+
+Algunos ejemplos de la arquitectura Cliente-Servidor son: Outlook, que es un cliente de correo para leer los correos de servicio hotmail, whatsapp, cliente de servicio de chat, vídeo y audio, Firefox, cliente web, 
+
+Referencia Modelo Cliente-Servidor: https://www.arsys.es/blog/todo-sobre-la-arquitectura-cliente-servidor
