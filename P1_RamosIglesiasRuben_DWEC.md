@@ -48,3 +48,53 @@ Referencia de definición Cross-selling y Up-selling: https://blog.hubspot.es/se
 Algunos ejemplos de la arquitectura Cliente-Servidor son: Outlook, que es un cliente de correo para leer los correos de servicio hotmail, whatsapp, cliente de servicio de chat, vídeo y audio, Firefox, cliente web.
 
 Referencia Modelo Cliente-Servidor: https://www.arsys.es/blog/todo-sobre-la-arquitectura-cliente-servidor
+
+# Lenguajes de Programación Web
+## Javascript 
+Es uno de los más usados actualmente y permite a los desarrolladores crear páginas dinámicas y aplicaciones web interactivas que mejoran la experiencia de los usuarios.  
+
+### Ventajas
+- **Interactividad en tiempo real.** Es una de las características más valiosas de Javascript. Es la capacidad de responder y adaptarse a las acciones del usuario en el mismo tiempo en el que ocurren, sin necesidad de recargar la página, por lo que crea una experiencia más dinámica, fluida y atractiva.
+- **Detección y respuesta de eventos.** Son las acciones que ocurren en la página web. Puede servir para mostrar información adicional al pasar el ratón sobre algún elemento de la página o para ejecutar una acción al hacer click.
+- **Manipulación sencilla del DOM.** Document Object Model, es una representación de la memoria de la estructura y el contenido de una página web. Javascript agiliza tanto el acceso como la manipulación de los elementos del DOM (cambiar el contenido, estilo y atributos de los elementos de las respuesta a los eventos).
+- **Creación de formularios interactivos.** Puede mejorar la interacción con formularios al validar los datos ingresados por el usuario, por lo que se mostarán mensajes de error instantáneos cuando existan campos erróneos o incompletos.
+- **Innovación en la carga de contenido dinámico.** Con AJAX (Asynchronous JavaScript and XML), carga y muestra contenido adicional sin recurrir a una recarga.
+- **Animación y efectos visuales.** Puede crear animaciones y efectos visuales en una página web (hacer que los elementos se muevan, cambien de tamaño, etc...).
+- **Desarrollo de juegos y aplicaciones interactivas.** Es una plataforma perfecta para crear juegos y aplicaciones interactivas en navegadores. Se utiliza en muchos juegos en línea simuladores y apps educativas.
+- **Comunicación inmediata entre cliente y servidor.** Con tecnologías como WebSockets, esta herramienta permite establecer conexiones de comunicación bidireccional entre el cliente y el servidor. Es esencial para aplicaciones en teimpo real, como chats en línea.
+- **Amplia adopción en el desarrollo web.** Tiene una gran cantidad de recursos , tutoriales y comunidades en línea dismponible.
+- **Ejecución constante en el lado del cliente.** Puede realizar acciones sin comunicarse de manera constante con els ervidor, por lo que ayuda a reducir la carga en el servidor y mejorar la eficiencia de las aplicaciones.
+- **Comunicación asíncrona con el servidor.** Los datos pueden cargarse y enviarse als ervidor en segundo plano a través de tecnologías como AJAX.
+- **Uso versátil para desarrolladores.** Con Node.js, Javascript se puede utilizar también en el lado del servidor.
+- **Amplio repertorio de bibliotecas y frameworks.** Existen bibliotecas y frameworks como JQery, React, Angular y Vue.js, que simplifican las tareas comunes como el desarrollo de las interfaces de usuario o la manipulación del DOM.
+- **Facilidad de aprendizaje.** Es sencillo de aprender ya que cuenta con una sintaxis clara y flexible.
+- **Evolución contínua en cada nueva versión.** Este lenguaje evoluciona y se mejora de manera constante, por lo que las nuevas versiones permiten escribir un código más limpio y eficiente.
+- **Compatibilidad con múltiples navegadores.** Los navegadores modernos han mejorado de manera significativa en términos de soporte para el JavaScript estándar, lo que facilita la creación de aplicaciones consistentes en diferentes plataformas.   
+
+### Desventajas 
+- **Falta de compatibilidad con navegadores.** A pesar de que la compatibilidad entre navegadores ha mejorado, todavía puede haber diferencias en la manera en la que interpretan y ejecutan el código de Javascript, por lo que puede requerir pruebas y ajustes adicionalespara garantizar un buen funcionamiento.
+- **Nivel de seguridad deficiente.** Como su código se ejecuta en el navegador del usuario, existe el riesgo de que algunos exploten sus vulnerabilidades para llevar a cabo ataques.
+- **Bajo rendimiento en aplicaciones complejas.** Javascript es un lenguaje interpretado, por lo que puede afectar al rendimiento en comparación a lenguajes compilados.
+- **Funcionalidad sujeta al uso del cliente.** Si un usuario deshabilita este recurso en su navegador o este no lo admite, la funcionalidad de la aplicación puede verse afectada.
+- **Dificultad para indexar en motores de búsqueda.** Los motores de búsqueda suelen tener dificultades para indexar contenido generado dinámicamente por este lenguaje de programación.
+- **Mantenimiento y legibilidad complicados.** A medida que las aplicaciones web se tornan más complejas o grandes, el código JavaScript puede volverse difícil de mantener y entender, por lo que puede generar problemas de legibilidad y errores.
+- **Carga inicial prolongada y rendimiento deficiente en dispositivos móviles.** Si no se optimiza de manera adecuada, los códigos creados con este lenguaje pueden aumentar los tiempos de carga de la página, afectando la experiencia del usuario.
+- **Obsolescencia de las versiones antiguas.** Algunas características de las versiones antiguas de JavaScript pueden volverse obsoletas o no recomendadas, por lo que puede ocasinar problemas de compatibilidad o dificultades de migración del código.  
+
+## TypeScript 
+Es un lenguaje de programación libre y de código abierto y es desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, añade tipado estático opcional y funciones avanzadas de JavaScript. se usa para para desarrollar aplicaciones JavaScript tanto para el lado del cliente como del servidor. Además ofrece POO (Programación Orientada a Objetos) como clases, interfaces y herencia, permitiendo un código estructurado y organizado.  
+
+### Ventajas
+- **Detecta errores en una fase temprana.** A medida que se va escribiendo el código, TypeScript proporciona un reporte con errores o mejoras que se pueden realizar.
+- **Amplía la funcionalidad de JavaScript.** Permite usar conceptos de programación avanzados como clases e interfaces.
+- **Proporciona una mejor experiencia de desarrollo para grandes proyectos.** Es especialmente útil para proyectos grandes con muchos desarrolladores, ya que ayuda a mantener el código bien organizado.
+- **Integración con librerías y frameworks.** Es compatible con muchas librerías y frameworks de JavaScript, por lo que ofrece una mayor integración.  
+
+### Desventajas
+- **La curva de aprendizaje.** Ofrece características adicionales a JavaScript, por lo que si el desarrollador no está familiarizado con TypeScript, deberá aprender los conceptos antes de poder trabajar con esta herramient.
+- **Tiempo adicional para definir tipos.** Añadir tipos estáticos puede llevar más tiempo en comparación a hacerlo simplemente con JavaScript debido a que requiere definir los tipos correctamente.
+
+Referencia JavaScript: https://blog.hubspot.es/website/ventajas-y-desventajas-de-javascript  
+Referencia TypeScript: https://medium.com/@alejodev95/introducci%C3%B3n-a-typescript-9740a71aaaee  
+
+# Tecnologías a utilizar
