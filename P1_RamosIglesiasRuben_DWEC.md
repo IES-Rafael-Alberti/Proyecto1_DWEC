@@ -98,25 +98,25 @@ Referencia JavaScript: https://blog.hubspot.es/website/ventajas-y-desventajas-de
 Referencia TypeScript: https://medium.com/@alejodev95/introducci%C3%B3n-a-typescript-9740a71aaaee  
 
 # Tecnologías a utilizar
-Teniendo en cuenta toda la investigación, la parte del cliente sería realizada en:  
+Teniendo en cuenta toda la investigación, el proyecto sería realizado con:  
 
 ## Lenguajes:
-- JavaScript, ya que permite crear experiencias dinámicas como añadir los productos al carrito o actualización de productos sin necesidad de actualizar la página.
-- Utilizaría también HTML, para crear la estructura básica de la tienda (los productos, categorías, los formularios, etc...)
-- CSS, para el diseño y las presentación visual, ya que se puede hacer que la tienda sea atractiva y que responda bien, incluso se podría hacer que responda bien en dispositivos móviles.
+- **JavaScript**, para la parte del cliente, ya que permite crear experiencias dinámicas como añadir los productos al carrito o actualización de productos sin necesidad de actualizar la página.
+- Utilizaría también **HTML**, para crear la estructura básica de la tienda (los productos, categorías, los formularios, etc...)
+- **CSS**, para el diseño y las presentación visual, ya que se puede hacer que la tienda sea atractiva y que responda bien, incluso se podría hacer que responda bien en dispositivos móviles.
 
 ## Frameworks:
-- React, Ideal para construir interfaces de usuario. Su modelo de componentes permite desarrollar aplicaciones modulares y reutilizables.
-- Vue.js: Similar a React, es fácil de integrar y también ofrece un enfoque basado en componentes. Es ligero y se puede aprender rápidamente.
-- Node.js: Para el backend. Permite construir aplicaciones escalables y utilizar JavaScript en el servidor. Es ideal para manejar múltiples conexiones y proporciona un entorno eficiente para el desarrollo.
-- Express.js: Un framework para Node.js que facilita la creación de APIs y manejar rutas, middleware y servidores.
+- **React:** Ideal para construir interfaces de usuario. Su modelo de componentes permite desarrollar aplicaciones modulares y reutilizables.
+- **Vue.js:** Similar a React, es fácil de integrar y también ofrece un enfoque basado en componentes. Es ligero y se puede aprender rápidamente.
+- **Node.js:** Para el backend. Permite construir aplicaciones escalables y utilizar JavaScript en el servidor. Es ideal para manejar múltiples conexiones y proporciona un entorno eficiente para el desarrollo.
+- **Express.js:** Un framework para Node.js que facilita la creación de APIs y manejar rutas, middleware y servidores.
 
 La razón de mi elección de estas tecnologías es porque son populares y ampliamente soportadas, por lo que existe bastante documentación y comunidades activas para resolver problemas. además Javascript tanto para el frontend como para el backend (con Node.js) permite un flujo de trabajo más simplificado.
 
 ## Integración de los Lenguajes de Marcas con los Lenguajes de Programación  
 HTML se utilizaría para estructurar el contenido de la tienda, mientras que JavaScript se encargaría de la interactividad. Por ejemplo:  
-- Manipulación del DOM: JavaScript piuede acceder y modificar el contenido HTML utilizando el DOM (Document Object Model), por lo que, como mecioné antes, permite agregar productos dinámicamente, actualizar la cesta de la compra, validar formularios, etc...
-- Eventos: como por ejemplo los botones. en HTML se pueden desencadenar funciones en JavaScript, por ejemplo, al hacer click en "añadir al carrito", se podría ejecutar una función que actualiza la lista de los productos.
+- **Manipulación del DOM:** JavaScript piuede acceder y modificar el contenido HTML utilizando el DOM (Document Object Model), por lo que, como mecioné antes, permite agregar productos dinámicamente, actualizar la cesta de la compra, validar formularios, etc...
+- **Eventos:** como por ejemplo los botones. en HTML se pueden desencadenar funciones en JavaScript, por ejemplo, al hacer click en "añadir al carrito", se podría ejecutar una función que actualiza la lista de los productos.
 
 ## Herramientas de Desarrollo  
 
@@ -124,9 +124,9 @@ HTML se utilizaría para estructurar el contenido de la tienda, mientras que Jav
 Utilizaría Visual Studio Code en principio. Es muy utilizado y soporta una amplia variedad de extensiones y herramientas. Ofrece funciones como autocompletado, depuración y control de versiones entre otras.  
 
 ## Otros Frameworks y Bibliotecas
-- Bootstrap: es un framwork de css que proporciona estilos diseñados y componentes que responden a una acción. Acelera el desarrollo y asegura que la tienda se vea bien en cualquier dispositivo.
-- Axios: es una biblioteca para hacer peticiones HTTP desde el frontend. Permie comunicarse fácilmente con el backend para procesar pedidos.
-- Redux: una biblioteca de JavaScript para gestionar el estado de la aplicación de forma más predecible. Para manejar la autentificación del usuario por ejemplo.
+- **Bootstrap:** es un framwork de css que proporciona estilos diseñados y componentes que responden a una acción. Acelera el desarrollo y asegura que la tienda se vea bien en cualquier dispositivo.
+- **Axios:** es una biblioteca para hacer peticiones HTTP desde el frontend. Permie comunicarse fácilmente con el backend para procesar pedidos.
+- **Redux:** una biblioteca de JavaScript para gestionar el estado de la aplicación de forma más predecible. Para manejar la autentificación del usuario por ejemplo.
 
 Fuentes para la decisión de las tecnologías a utilizar:  
 https://developer.mozilla.org/es/docs/Web/HTML  
@@ -141,3 +141,43 @@ https://www.meltstudio.co/post/por-que-los-desarrolladores-adoran-axios
 https://oxygenacademy.es/que-es-redux-y-por-que-deberias-implementarlo-en-tus-aplicaciones-react/  
 
 # Compatibilidad en Navegadores
+## Compatibilidad con JavaScript
+- La mayoría de los navegadores modernos (Chrome, Firefox, Safari, Edge) son compatibles con ECMAScript 6 (ES6) y versiones posteriores, pero algunas características pueden no ser soportadas en versiones más antiguas de navegadores como Internet Explorer.
+- Métodos y propiedades nuevos, como Promise, async/await, y la sintaxis de clases pueden no estar disponibles en navegadores más antiguos.
+
+### Problemas más comunes: 
+- **Polyfills:** Algunas funciones modernas no están disponibles en todos los navegadores. Utilizar polyfills (código que proporciona una funcionalidad moderna en navegadores antiguos) podría ser una opción. Por ejemplo, usar polyfill.io para cargar automáticamente los polyfills necesarios.
+- **Transpilación:** algunas herramientas como Babel permiten convertir código ES6+ a una versión compatible con navegadores más antiguos, facilitando la escritura de código moderno sin preocuparse demasiado por la compatibilidad.
+
+## Compatibilidad con HTML y CSS
+- Aunque HTML5 es ampliamente soportado, algunas propiedades CSS, como grid o flexbox, pueden tener diferentes niveles de soporte en navegadores antiguos.
+- Se podría utilizar herramientas como "Can I Use", que permite verificar la compatibilidad de características específicas de CSS y HTML en diferentes navegadores.
+
+### Problemas comunes
+- **Fallbacks:** son alternativas para propiedades CSS que no son compatibles. Un ejemplo sería usar display: block como fallback si display: grid no es soportado.
+- **Prefijos:** algunas propiedades CSS requieren prefijos específicos de cada navegador (como -webkit- para Safari y Chrome). Herramientas como Autoprefixer pueden automatizar este proceso.
+
+## Integración de Lenguajes de Marca y Lenguajes de Programación
+### Interacción entre HTML, CSS y JavaScript
+HTML sirve como la estructura base, mientras que CSS se encarga de la presentación y JavaScript añade interactividad. La integración de estos lenguajes puede afectar el rendimiento y la compatibilidad.
+### Problemas de renderizado
+Diferentes motores de renderizado pueden interpretar el DOM de manera distinta. Por ejemplo, cambios dinámicos en el DOM a través de JavaScript pueden no reflejarse igual en todos los navegadores, lo que resulta en problemas de visualización.
+### Reflow y Repaint
+Las manipulaciones de DOM pueden causar "reflows" (cálculo del nuevo diseño) y "repaints" (re-dibujado) que afectan el rendimiento. Es recomendable agrupar cambios de DOM y minimizarlos para mejorar el rendimiento.
+
+## Soluciones y Mejora de Prácticas
+- **Puebas en navegadores:** utilizar herramientas como BrowserStack o Sauce Labs prara realizar pruebas cruzadas. Verifica el funcionamiento en diferentes navegadores y dispositivos.
+- **Frameworks y librerías:** bibliotecas como JQery manejan automáticamente algunas diferencias de compatibilidad entre navegadores.
+- **Desarrollo responsivo:** frameworks como Bootstrap garantiza que la tienda se vea bien en todos los dispositivos y navegadores.
+- **Documentación y recursos:** Mantenerse actualizado con las últimas recomendaciones de compatibilidad en recursos como MDN y caniuse.com.
+
+Fuentes utilizadas para la investigación:  
+https://www.falconmasters.com/recursos-herramientas/compatibilidad-navegadores-can-i-use/#:~:text=Como%20hemos%20podido%20comprobar%2C%20Can,las%20distintas%20versiones%20de%20navegadores.  
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#browser_compatibility  
+https://unaaldia.hispasec.com/2024/06/ataque-a-la-cadena-de-suministro-mas-de-100000-sitios-web-comprometidos-por-polyfill-io.html#:~:text=El%20servicio%20Polyfill.io%20es,navegadores%20no%20soportan%20caracter%C3%ADsticas%20modernas.  
+https://www.freecodecamp.org/espanol/news/que-es-babel/  
+https://developer.mozilla.org/en-US/docs/Glossary/Reflow  
+https://www.laboratorioweb.com.co/que-es-browserstack-y-como-puedo-utilizarlo/  
+https://saucelabs.com/company/about-us  
+https://api.jquery.com/  
+https://rockcontent.com/es/blog/bootstrap/  
