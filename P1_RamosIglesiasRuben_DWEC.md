@@ -98,3 +98,46 @@ Referencia JavaScript: https://blog.hubspot.es/website/ventajas-y-desventajas-de
 Referencia TypeScript: https://medium.com/@alejodev95/introducci%C3%B3n-a-typescript-9740a71aaaee  
 
 # Tecnologías a utilizar
+Teniendo en cuenta toda la investigación, la parte del cliente sería realizada en:  
+
+## Lenguajes:
+- JavaScript, ya que permite crear experiencias dinámicas como añadir los productos al carrito o actualización de productos sin necesidad de actualizar la página.
+- Utilizaría también HTML, para crear la estructura básica de la tienda (los productos, categorías, los formularios, etc...)
+- CSS, para el diseño y las presentación visual, ya que se puede hacer que la tienda sea atractiva y que responda bien, incluso se podría hacer que responda bien en dispositivos móviles.
+
+## Frameworks:
+- React, Ideal para construir interfaces de usuario. Su modelo de componentes permite desarrollar aplicaciones modulares y reutilizables.
+- Vue.js: Similar a React, es fácil de integrar y también ofrece un enfoque basado en componentes. Es ligero y se puede aprender rápidamente.
+- Node.js: Para el backend. Permite construir aplicaciones escalables y utilizar JavaScript en el servidor. Es ideal para manejar múltiples conexiones y proporciona un entorno eficiente para el desarrollo.
+- Express.js: Un framework para Node.js que facilita la creación de APIs y manejar rutas, middleware y servidores.
+
+La razón de mi elección de estas tecnologías es porque son populares y ampliamente soportadas, por lo que existe bastante documentación y comunidades activas para resolver problemas. además Javascript tanto para el frontend como para el backend (con Node.js) permite un flujo de trabajo más simplificado.
+
+## Integración de los Lenguajes de Marcas con los Lenguajes de Programación  
+HTML se utilizaría para estructurar el contenido de la tienda, mientras que JavaScript se encargaría de la interactividad. Por ejemplo:  
+- Manipulación del DOM: JavaScript piuede acceder y modificar el contenido HTML utilizando el DOM (Document Object Model), por lo que, como mecioné antes, permite agregar productos dinámicamente, actualizar la cesta de la compra, validar formularios, etc...
+- Eventos: como por ejemplo los botones. en HTML se pueden desencadenar funciones en JavaScript, por ejemplo, al hacer click en "añadir al carrito", se podría ejecutar una función que actualiza la lista de los productos.
+
+## Herramientas de Desarrollo  
+
+### Editor de Código  
+Utilizaría Visual Studio Code en principio. Es muy utilizado y soporta una amplia variedad de extensiones y herramientas. Ofrece funciones como autocompletado, depuración y control de versiones entre otras.  
+
+## Otros Frameworks y Bibliotecas
+- Bootstrap: es un framwork de css que proporciona estilos diseñados y componentes que responden a una acción. Acelera el desarrollo y asegura que la tienda se vea bien en cualquier dispositivo.
+- Axios: es una biblioteca para hacer peticiones HTTP desde el frontend. Permie comunicarse fácilmente con el backend para procesar pedidos.
+- Redux: una biblioteca de JavaScript para gestionar el estado de la aplicación de forma más predecible. Para manejar la autentificación del usuario por ejemplo.
+
+Fuentes para la decisión de las tecnologías a utilizar:  
+https://developer.mozilla.org/es/docs/Web/HTML  
+https://developer.mozilla.org/es/docs/Web/CSS  
+https://developer.mozilla.org/es/docs/Web/JavaScript  
+https://www.tithink.com/es/2018/11/14/7-razones-para-utilizar-react/  
+https://www.godaddy.com/resources/es/crearweb/vue-framework-js-que-es  
+https://www.lucushost.com/blog/que-es-node-js/#:~:text=entorno%2C%20%C2%BFverdad%3F-,Node.,cuando%20las%20conexiones%20se%20multiplican.  
+https://kinsta.com/es/base-de-conocimiento/que-es-express/  
+https://immune.institute/blog/razones-usar-bootstrap-web/  
+https://www.meltstudio.co/post/por-que-los-desarrolladores-adoran-axios  
+https://oxygenacademy.es/que-es-redux-y-por-que-deberias-implementarlo-en-tus-aplicaciones-react/  
+
+# Compatibilidad en Navegadores
